@@ -1,12 +1,14 @@
-import Image from "next/image";
 import Courses from "./Courses/page";
-
-
-export default function Home() {
+import Home from "./home/page";
+import AboutSection from "./About/page";
+export default function page() {
   return (
     <>
-    {/* <Home /> */}
-    {/* <Courses /> */}
+      <Home />
+      <Courses />
+      <AboutSection/>
     </>
   );
 }
+
+
