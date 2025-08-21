@@ -1,4 +1,4 @@
-"use client"; // App Router me client component banana hoga
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -19,12 +19,12 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6 text-sm font-medium">
           <Link href="/">Home</Link>
-          <Link href="/courses">Courses</Link>
-          <Link href="/freelancing">Freelancing</Link>
-          <Link href="/customized-printing">Customized Printing</Link>
-          <Link href="/about">About</Link>
+          <Link href="/Courses">Courses</Link>
+          <Link href="/Freelancing">Freelancing</Link>
+          <Link href="/CustomizePrinting">Customized Printing</Link>
+          <Link href="/About">About</Link>
           <Link
-            href="/enroll"
+            href="/Enroll"
             className="bg-purple-800 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-purple-900 transition"
           >
             Enroll Now
@@ -48,14 +48,14 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden flex flex-col space-y-4 mt-4 text-sm font-medium">
           <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="/courses" onClick={() => setIsOpen(false)}>Courses</Link>
-          <Link href="/freelancing" onClick={() => setIsOpen(false)}>Freelancing</Link>
-          <Link href="/customized-printing" onClick={() => setIsOpen(false)}>
+          <Link href="/Courses" onClick={() => setIsOpen(false)}>Courses</Link>
+          <Link href="/Freelancing" onClick={() => setIsOpen(false)}>Freelancing</Link>
+          <Link href="/CustomizePrinting" onClick={() => setIsOpen(false)}>
             Customized Printing
           </Link>
-          <Link href="/about" onClick={() => setIsOpen(false)}>About</Link>
+          <Link href="/About" onClick={() => setIsOpen(false)}>About</Link>
           <Link
-            href="/enroll"
+            href="/Enroll"
             onClick={() => setIsOpen(false)}
             className="bg-purple-800 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-purple-900 transition"
           >
