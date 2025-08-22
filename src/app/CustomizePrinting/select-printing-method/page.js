@@ -119,46 +119,46 @@ export default function SelectPrintingMethod() {
           <div className="space-y-16">
             {/* Digital */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-              <Image src={print1} alt="Digital Printing" width={600} height={600} className="w-full h-64 object-contain rounded-lg shadow" />
+              <Image src={print1} alt="Digital Printing" width={600} height={600} className="w-full h-64 object-contain rounded-lg" />
               <div>
                 <h2 className="text-2xl font-bold text-[#7B1451] mb-3">Digital Printing</h2>
                 <p className="text-gray-700 mb-3">
                   Digital fabric printing is a process that involves printing digital images directly onto fabric using inkjet technology.
                 </p>
-                <p className="text-sm text-gray-600">
-                  <span className="font-bold text-[#7B1451]">Graphics required:</span>{" "}
+                <p className="text-sm text-[#ECB922] font-bold">
+                  <span className="font-bold">Graphics required:</span>{" "}
                   For a digitally printed design, files should be in{" "}
-                  <span className="text-[#ECB922]">.TIFF / .PNG / Digitally created</span>.
+                  <span className="">.TIFF / .PNG / Digitally created</span>.
                 </p>
               </div>
             </div>
 
             {/* Sublimation */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-              <Image src={print2} alt="Sublimation Printing" width={600} height={400} className="w-full h-64 object-contain rounded-lg shadow" />
+              <Image src={print2} alt="Sublimation Printing" width={600} height={400} className="w-full h-64 object-contain rounded-lg" />
               <div>
                 <h2 className="text-2xl font-bold text-[#7B1451] mb-3">Sublimation Printing</h2>
                 <p className="text-gray-700 mb-3">
                   Sublimation printing is a digital printing technology that uses heat to transfer dye into synthetic fabrics.
                 </p>
-                <p className="text-sm text-gray-600">
-                  <span className="font-bold text-[#7B1451]">Graphics required:</span>{" "}
-                  Use high-resolution <span className="text-[#ECB922]">.JPG / .PNG</span> files.
+                <p className="text-sm text-[#ECB922] font-bold">
+                  <span className="font-bold">Graphics required:</span>{" "}
+                  Use high-resolution <span className="">.JPG / .PNG</span> files.
                 </p>
               </div>
             </div>
 
             {/* Screen Printing */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-              <Image src={print3} alt="Screen Printing" width={600} height={400} className="w-full h-64 object-contain rounded-lg shadow" />
+              <Image src={print3} alt="Screen Printing" width={600} height={400} className="w-full h-64 object-contain rounded-lg" />
               <div>
                 <h2 className="text-2xl font-bold text-[#7B1451] mb-3">Screen Printing</h2>
                 <p className="text-gray-700 mb-3">
                   Digital screen printing is a hybrid screen printing technology that combines traditional techniques with digital printing for precision.
                 </p>
-                <p className="text-sm text-gray-600">
-                  <span className="font-bold text-[#7B1451]">Graphics required:</span>{" "}
-                  Files should be in <span className="text-[#ECB922]">.AI / .EPS / Digitally created</span>.
+                <p className="text-sm text-[#ECB922] font-bold">
+                  <span className="font-bold">Graphics required:</span>{" "}
+                  Files should be in <span className="">.AI / .EPS / Digitally created</span>.
                 </p>
               </div>
             </div>
