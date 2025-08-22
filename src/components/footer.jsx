@@ -7,7 +7,7 @@ export default function Footer() {
         
         {/* About Section  */}
         <div>
-          <h2 className="font-bold text-xl">Hammad textiles Hub</h2>
+          <h2 className="font-bold text-xl">Kashaf textiles Hub</h2>
           <p className="text-sm mt-3">
             From Digital Design to Real Fabric
           </p>

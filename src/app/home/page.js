@@ -14,7 +14,7 @@ export default function Home() {
       </h1>
       <p>Empowering Creativity Through Education & Custom Printing </p>
       <div className="flex justify-center md:justify-start gap-6 mt-8">
-        <button className="px-10 py-3 bg-purple-800 text-white rounded-md hover:bg-purple-900 transition">
+        <button className="px-10 py-3 bg-[#750B4E] text-white rounded-md hover:bg-purple-900 transition">
           Explore More
         </button>
         <button className="px-6 py-3 bg-yellow-400 text-gray-900 rounded-md hover:bg-yellow-500 transition">
@@ -141,8 +141,8 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-6">
           <div className="bg-white shadow-md p-6 w-64 text-left">
             <p className="italic">
-              "Kashaf Textile Hub transformed my design into beautiful fabric!
-              The process was so smooth and professional."
+              Kashaf Textile Hub transformed my design into beautiful fabric!
+              The process was so smooth and professional.
             </p>
             <span className="block mt-4 text-[#8a2c6c] font-bold">
               — Ayesha, Fashion Student
@@ -150,8 +150,8 @@ export default function Home() {
           </div>
           <div className="bg-white shadow-md p-6 w-64 text-left">
             <p className="italic">
-              "The custom printing and design guidance helped launch my clothing
-              brand. Highly recommend their services!"
+              The custom printing and design guidance helped launch my clothing
+              brand. Highly recommend their services!
             </p>
             <span className="block mt-4 text-[#8a2c6c] font-bold">
               — Fatima, Startup Owner
@@ -159,8 +159,8 @@ export default function Home() {
           </div>
           <div className="bg-white shadow-md p-6 w-64 text-left">
             <p className="italic">
-              "Kashaf Textile Hub transformed my design into beautiful fabric!
-              The process was so smooth and professional"
+              Kashaf Textile Hub transformed my design into beautiful fabric!
+              The process was so smooth and professiona
             </p>
             <span className="block mt-4 text-[#8a2c6c] font-bold">
               — Ayesha, Fashion Student
