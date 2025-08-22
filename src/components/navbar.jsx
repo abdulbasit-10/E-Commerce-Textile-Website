@@ -23,7 +23,7 @@ export default function Navbar() {
             height={50}
             />
           </div>
-          <span className="text-purple-900 font-bold text-sm tracking-wide">
+          <span className="text-[#750B4E] font-bold text-sm tracking-wide">
             KASHAF TEXTILE HUB
           </span>
         </div>
@@ -38,12 +38,12 @@ export default function Navbar() {
             <li onClick={() => router.push("/CustomizePrinting")} className="list-none cursor-pointer">Customized Printing</li>
             <li onClick={() => router.push("/Faqs")} className="list-none cursor-pointer">FAQs</li>
           {/* </ul> */}
-          <Link
-            href="/enroll"
-            className="bg-purple-800 text-white px-4 py-3 rounded-md text-sm font-semibold hover:bg-purple-900 transition"
+          <button
+          onClick={() => router.push("/EnrollNow")}
+          className="bg-[#750B4E] text-white px-4 py-3 rounded-md text-sm font-semibold transition cursor-pointer" 
           >
             Enroll Now
-          </Link>
+          </button>
         </div>
 
         {/* Mobile Menu Button */}
