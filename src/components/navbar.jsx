@@ -2,16 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
+  const pathName = usePathname()
+  const paths = pathName.split("/")
+  const isCustomizePath = paths.some(element=>element==="CustomizePrinting" || element==="Faqs")
   const router = useRouter();
   return (
-    <nav className="bg-yellow-500 px-6 py-3 shadow-md">
+    <nav className={`px-6 py-3 shadow-md ${isCustomizePath ? 'bg-white': "bg-yellow-500"}`}>
       <div className="flex items-center justify-between">
         {/* Logo / Brand */}
         <div className="flex items-center space-x-2">
@@ -31,7 +33,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {/* <ul className="list-none flex"> */}
-            <li onClick={() => router.push("/home")} className="list-none cursor-pointer">Home</li>
+            <li onClick={() => router.push("/")} className="list-none cursor-pointer">Home</li>
             <li onClick={() => router.push("/About")} className="list-none cursor-pointer">About</li>
             <li onClick={() => router.push("/Courses")} className="list-none cursor-pointer">Courses</li>
             <li onClick={() => router.push("/Freelancing")} className="list-none cursor-pointer">Freelancing</li>
