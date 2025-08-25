@@ -136,7 +136,7 @@ export default function EstimatePage() {
             <input
               type="number"
               value={quantity}
-              onChange={(e) => setQuantity(e.target.value)}
+              onChange={(e) => setQuantity(e?.target?.value)}
               placeholder="Select Quantity"
               className="w-full p-3 border rounded-md focus:ring-2 focus:ring-[#750B4E]"
             />
