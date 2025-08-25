@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import Link from "next/link";
 
 // Images
@@ -19,7 +20,7 @@ import choose9_1 from "/public/choose9.1.png";
 
 export default function CustomizePrinting() {
   return (
-    <section className="bg-[#faf7f0] py-20">
+    <section className="bg-yellow-500 py-20">
       {/* Hero */}
       <div className="px-6 md:px-20">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
