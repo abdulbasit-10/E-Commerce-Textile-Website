@@ -24,9 +24,9 @@ const fabricImages = [
 
 export default function FabricType() {
   return (
-    <main>
-      {/* ✅ Hero Section */}
-      <section className="bg-[#faf7f0] py-20">
+    <main className="bg-[#faf7f0] min-h-screen">
+      {/* ✅ Hero Section (Yellow background only) */}
+      <section className="bg-[#ECB922] py-20">
         <div className="px-6 md:px-20">
           <div className="flex flex-col md:flex-row items-center justify-between gap-10">
             {/* Left */}
@@ -61,8 +61,8 @@ export default function FabricType() {
         </div>
       </section>
 
-      {/* ✅ Navbar Steps */}
-      <div className="bg-[#750B4E] w-full mt-10 overflow-x-auto">
+      {/* ✅ Navbar Steps (separate purple background) */}
+      <div className="bg-[#750B4E] w-full overflow-x-auto">
         <nav className="flex w-full text-white text-sm md:text-base font-medium min-w-max">
           <Link
             href="/CustomizePrinting"
@@ -127,26 +127,26 @@ export default function FabricType() {
           </div>
         ))}
       </section>
-{/* ✅ Fabric Gallery */}
-<section className="px-6 md:px-20 pb-20">
-  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-    {fabricImages.map((src, index) => (
-      <div
-        key={index}
-        className="overflow-hidden rounded-lg shadow-sm"
-      >
-        <Image
-          src={src}
-          alt={`Fabric ${index + 1}`}
-          width={300}
-          height={300}
-          className="w-full md:h-80 h-48 object-cover rounded-lg"
-        />
-      </div>
-    ))}
-  </div>
-</section>
 
+      {/* ✅ Fabric Gallery */}
+      <section className="px-6 md:px-20 pb-20">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          {fabricImages.map((src, index) => (
+            <div
+              key={index}
+              className="overflow-hidden rounded-lg shadow-sm"
+            >
+              <Image
+                src={src}
+                alt={`Fabric ${index + 1}`}
+                width={300}
+                height={300}
+                className="w-full md:h-80 h-48 object-cover rounded-lg"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
