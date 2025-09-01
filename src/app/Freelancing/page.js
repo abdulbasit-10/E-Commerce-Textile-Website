@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
+import { FaCheck, FaStar } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -83,6 +84,11 @@ export default function Home() {
               <span className="font-medium">Kashaf Textile Hub</span> taught me how to earn online.
               I got my first Fiverr client in 1 month! – Areeba
             </p>
+            <div className="flex gap-2">
+                        {[...Array(5)].map((_, i) => (
+                          <FaStar key={i} className="text-[#ECB922] text-xl" />
+                        ))}
+          </div>
           </div>
 
           {/* CTA Button */}
