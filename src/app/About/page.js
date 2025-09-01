@@ -41,14 +41,14 @@ export default function AboutSection() {
 
         {/* Button */}
         <div className="flex justify-center">
-          <button className="bg-[#8a2c6c] text-white px-6 py-2 rounded-md shadow hover:bg-[#6a004e] transition">
+          <button className="bg-[#8a2c6c] mt-10 text-white px-6 py-2 rounded-md shadow hover:bg-[#6a004e] transition">
             Explore Courses
           </button>
         </div>
       </section>
 
       {/* White Gap */}
-      <div className="bg-white h-10 w-full"></div>
+      <div className="bg-white h-60 w-full"></div>
 
       {/* Footer Banner Quote */}
       <div className="bg-[#f1b400] py-4 text-center px-4 mb-80">

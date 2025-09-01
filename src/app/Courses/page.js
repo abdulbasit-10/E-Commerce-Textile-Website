@@ -6,19 +6,19 @@ export default function Courses() {
   const courses = [
     {
       id: 1,
-      title: "Textile Designing",
+      title: "Intro to Digital Textile Design",
       description: "Learn basics of pattern making, color theory, and software.",
       link: "/courses/textile-designing",
     },
     {
       id: 2,
-      title: "Digital Printing",
+      title: "Advanced Pattern Prints",
       description: "Master seamless repeats, motifs, and layouts.",
       link: "/courses/digital-printing",
     },
     {
       id: 3,
-      title: "Fashion Illustration",
+      title: "Freelancing for Designers",
       description: "Build your freelance career on Fiverr, Upwork & more.",
       link: "/courses/fashion-illustration",
     },
@@ -52,7 +52,7 @@ export default function Courses() {
 
         {/* Popular Courses */}
         <div className="space-y-8">
-          <h2 className="text-3xl font-semibold text-[#750B4E] text-center">
+          <h2 className="text-3xl font-semibold text-[#750B4E] text-center italic">
             Our Popular Courses
           </h2>
 
@@ -82,7 +82,7 @@ export default function Courses() {
       <section className="bg-[#F9F7F0] w-full py-16 mt-16">
         <div className="max-w-6xl mx-auto px-6 space-y-10">
           {/* Section Heading */}
-          <h2 className="text-3xl font-semibold text-[#750B4E] text-center">
+          <h2 className="text-3xl text-[#750B4E] text-center font-bold italic">
             Why Learn With Kashaf Textile Hub?
           </h2>
 
@@ -114,7 +114,7 @@ export default function Courses() {
 
           {/* CTA Button */}
           <div className="flex justify-center">
-            <button className="bg-[#750B4E] text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-[#5a083b] transition">
+            <button className="bg-[#750B4E] text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-[#5a083b] transition">
               Join Our Courses Now
             </button>
           </div>

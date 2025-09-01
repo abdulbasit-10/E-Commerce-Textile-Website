@@ -8,23 +8,23 @@ export default function Home() {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
     
     {/* Left Side - Text + Buttons */}
-    <div className="text-center md:text-left md:w-1/2">
-      <h1 className="text-4xl md:text-5xl font-bold text-[#750B4E] mb-6 italic">
+    <div className="text-center md:text-left w-full md:w-[60%]">
+      <h1 className="text-4xl md:text-5xl w-full font-bold text-[#750B4E] mb-6 italic">
         From Digital Designs to Real Fabric
       </h1>
-      <p>Empowering Creativity Through Education & Custom Printing </p>
-      <div className="flex justify-center md:justify-start gap-6 mt-8">
-        <button className="px-10 py-3 bg-[#750B4E] text-white rounded-md hover:bg-purple-900 transition">
+      <h2 className="text-[24px]">Empowering Creativity Through Education & Custom Printing </h2>
+      <div className="flex justify-center md:justify-start gap-3 md:gap-6 mt-8">
+        <button className="px-2 sm:px-10 text-[14px] md:text-base py-3 bg-[#750B4E] text-white rounded-md hover:bg-purple-900 transition">
           Explore More
         </button>
-        <button className="px-6 py-3 bg-yellow-400 text-gray-900 rounded-md hover:bg-yellow-500 transition">
+        <button className="px-2 sm:px-6 py-3 bg-yellow-400 text-gray-900 rounded-md hover:bg-yellow-500 transition">
           Custom Your Print
         </button>
       </div>
     </div>
 
     {/* Right Side - Image */}
-    <div className="mt-10 md:mt-0 md:w-1/2 flex justify-center">
+    <div className="mt-10 md:mt-0 md:w-1/2 hidden sm:flex justify-center">
       <Image
         width={880}
         height={214}
@@ -39,9 +39,9 @@ export default function Home() {
 
 
       {/* Why Section */}
-      <section className="py-16 px-5 pt-15 bg-[#F9F7F0] text-center">
+      <section className="flex flex-col items-center py-30 px-5 pt-15 bg-[#F9F7F0] text-center">
         <h1 className="text-[#750B4E] text-4xl font-semibold italic">Why We Started Kashaf Textile Hub</h1>
-        <p className="text-lg text-gray-700 py-16">
+        <p className="text-lg text-gray-700 pt-4 md:w-[70%]">
           Kashaf Textile Hub is a creative platform that offers digital textile
           printing, custom design solutions, and hands-on design education. We
           serve students, startups, and women creators in KPK and beyond.
@@ -56,9 +56,9 @@ export default function Home() {
         <h2 className="text-center text-4xl font-semibold text-[#750B4E] italic mb-10">
           Our Core Services
         </h2>
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center gap-10">
           {/* Card 1 */}
-          <div className="bg-white shadow-md rounded-lg p-5 w-72 text-center">
+          <div className="bg-white shadow-md rounded-lg w-72 pb-10 text-start relative">
             <Image
               width={200} 
               height={200} 
@@ -66,16 +66,26 @@ export default function Home() {
               alt="Digital Textile Design"
               className="w-full h-auto rounded-md mb-4"
             />
-            <h3 className="text-[#750B4E] text-lg font-bold mb-2">
+            <Image
+            width={100}
+            height={50}
+            src="/nT 2.png"
+            alt="Image"
+            className="absolute left-[90px] rounded-md mb-4 top-0"
+            />
+            <h3 className="text-[#750B4E] text-lg font-bold mb-2 px-5">
               Digital Textile Design
             </h3>
-            <p className="text-[#2C2C2C] text-sm">
-              Learn digital textile design — Explore Courses
+            <p className="text-[#2C2C2C] text-sm px-5">
+              Learn digital textile design
+            </p>
+            <p className="text-yellow-400 text-sm px-5">
+              Explore Courses
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white shadow-md rounded-lg p-5 w-72 text-center">
+          <div className="bg-white shadow-md rounded-lg w-72 relative text-start">
             <Image
             width={200} 
               height={200}
@@ -83,16 +93,24 @@ export default function Home() {
               alt="Fabric Printing"
               className="w-full h-auto rounded-md mb-4"
             />
-            <h3 className="text-[#750B4E] text-lg font-bold mb-2">
+            <Image
+            width={100}
+            height={50}
+            src="/624c8e1f832fd5e73adc9feae7b041bb 1.png"
+            alt="Images"
+            className="absolute right-[-0px] rounded-md mb-4 top-[-10px]"
+            />
+            <h3 className="text-[#750B4E] text-lg font-bold mb-2 px-5">
               Fabric Printing
             </h3>
-            <p className="text-[#2C2C2C] text-sm">
-              Get your designs printed. Visit Our Designs
+            <p className="text-[#2C2C2C] text-sm px-5">
+              Get your designs printed
             </p>
+            <p className="text-yellow-400 text-sm px-5">Pint Your Designs</p>
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white shadow-md rounded-lg p-5 w-72 text-center">
+          <div className="bg-white shadow-md rounded-lg w-72 text-start">
             <Image
             width={200} 
               height={200}
@@ -100,12 +118,13 @@ export default function Home() {
               alt="Sell or Freelance Design"
               className="w-full h-auto rounded-md mb-4"
             />
-            <h3 className="text-[#750B4E] text-lg font-bold mb-2">
+            <h3 className="text-[#750B4E] text-lg font-bold mb-2 px-5">
               Sell OR Freelance Design
             </h3>
-            <p className="text-[#2C2C2C] text-sm">
-              Work for global clients.Launch Your Career
+            <p className="text-[#2C2C2C] text-sm px-5">
+              Work for global clients
             </p>
+            <p className="text-yellow-400 text-sm px-5">Launch Your Career</p>
           </div>
         </div>
       </section>
