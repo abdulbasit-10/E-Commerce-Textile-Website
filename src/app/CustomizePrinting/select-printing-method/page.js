@@ -22,10 +22,10 @@ export default function SelectPrintingMethod() {
                 creativity.
               </p>
               <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-                <button className="px-6 py-3 bg-[#2c2c2c] text-white rounded-md hover:bg-black transition">
+                <button className="px-6 py-3 bg-[#2c2c2c] cursor-pointer text-white rounded-md hover:bg-black transition">
                   Start Customizing
                 </button>
-                <button className="px-6 py-3 bg-[#7B1451] text-white rounded-md hover:bg-pink-900 transition">
+                <button className="px-6 py-3 bg-white text-[#7B1451] rounded-md cursor-pointer hover:bg-[#FFFFF0] transition">
                   Explore Fabrics
                 </button>
               </div>
@@ -210,16 +210,6 @@ export default function SelectPrintingMethod() {
                 </p>
               </div>
             </div>
-          </div>
-
-          {/* Back link */}
-          <div className="mt-12 text-center">
-            <Link
-              href="/CustomizePrinting"
-              className="text-[#7B1451] font-semibold hover:underline"
-            >
-              ← Back to Choose Surface
-            </Link>
           </div>
         </div>
       </section>

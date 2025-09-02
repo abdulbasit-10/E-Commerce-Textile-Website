@@ -98,22 +98,22 @@ export default function FabricType() {
       </div>
 
       {/* ✅ Fabric Selection Header */}
-      <div className="text-center mt-16 mb-12">
-        <h2 className="text-3xl font-bold text-[#7B1451]">Select Your Fabric</h2>
+      <div className="bg-white text-center pt-16 pb-16">
+        <h2 className="text-3xl font-bold text-[#7B1451] italic playfair-display">Select Your Fabric</h2>
         <p className="text-gray-600 mt-2">
           Choose from a variety of fabrics that best suit your design
         </p>
       </div>
 
       {/* ✅ Fabric Options Grid */}
-      <section className="px-6 md:px-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      <section className="px-6 md:px-20 md:pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
         {fabrics.map((fabric, index) => (
           <div
             key={index}
             className="bg-white shadow-md rounded-xl p-6 flex flex-col justify-between hover:shadow-lg transition"
           >
             <div>
-              <h3 className="text-xl font-bold text-[#7B1451]">
+              <h3 className="text-xl font-bold  text-[#7B1451]">
                 {fabric.name}
               </h3>
               <p className="text-gray-600 mt-2">{fabric.desc}</p>
