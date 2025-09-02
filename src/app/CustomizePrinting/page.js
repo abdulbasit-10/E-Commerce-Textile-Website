@@ -20,7 +20,7 @@ import choose9_1 from "/public/choose9.1.png";
 
 export default function CustomizePrinting() {
   return (
-    <section className=" py-20">
+    <section className="py-20">
       {/* Hero */}
       <div className="px-6 md:px-20">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
@@ -92,7 +92,15 @@ export default function CustomizePrinting() {
       </div>
 
       {/* Choose Surface Section */}
-      <section className="bg-[#FAF7F0] py-12">
+         <div className="max-w-3xl  mx-auto text-center px-4 mb-10 py-10">
+          <h2 className="playfair-display text-[#7B1451] text-2xl sm:text-3xl md:text-4xl font-bold italic mb-4">
+            Choose Your Surface
+          </h2>
+         <p className=" text-[#555555] roboto text-sm sm:text-base md:text-lg leading-relaxed">
+           Select the product you want to print on and start customizing.
+         </p>
+        </div>
+        <section className="bg-[#FAF7F0] py-12">
         <div className="max-w-7xl mx-auto px-6">
           {/* grid → 1 col on mobile, 3 cols from sm */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
