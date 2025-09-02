@@ -30,7 +30,7 @@ export default function Courses() {
       <section className="max-w-6xl mx-auto px-6 py-12 space-y-8">
         {/* Heading */}
         <header className="text-center space-y-4">
-          <h1 className="text-4xl font-bold text-[#750B4E]">
+          <h1 className="text-4xl font-Times New Roman italic font-bold text-[#750B4E]">
             Explore Our Digital Textile Courses
           </h1>
           <p className="text-lg text-black">

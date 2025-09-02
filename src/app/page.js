@@ -9,10 +9,10 @@ export default function Home() {
     
     {/* Left Side - Text + Buttons */}
     <div className="text-center md:text-left w-full md:w-[60%]">
-      <h1 className="text-4xl md:text-5xl w-full font-bold text-[#750B4E] mb-6 italic">
+      <h1 className="text-5xl md:text-4xl w-full font-bold playfair-display italic text-[#750B4E] mb-6">
         From Digital Designs to Real Fabric
       </h1>
-      <h2 className="text-[24px]">Empowering Creativity Through Education & Custom Printing </h2>
+      <h2 className="text-[20px]">Empowering Creativity Through Education & Custom Printing </h2>
       <div className="flex justify-center md:justify-start gap-3 md:gap-6 mt-8">
         <button className="px-2 sm:px-10 text-[14px] md:text-base py-3 bg-[#750B4E] text-white rounded-md hover:bg-purple-900 transition">
           Explore More
@@ -24,7 +24,7 @@ export default function Home() {
     </div>
 
     {/* Right Side - Image */}
-    <div className="mt-10 md:mt-0 md:w-1/2 hidden sm:flex justify-center">
+    <div className="mt-20 md:mt-0 md:w-1/2 hidden sm:flex justify-center">
       <Image
         width={880}
         height={214}
@@ -40,7 +40,7 @@ export default function Home() {
 
       {/* Why Section */}
       <section className="flex flex-col items-center py-30 px-5 pt-15 bg-[#F9F7F0] text-center">
-        <h1 className="text-[#750B4E] text-4xl font-semibold italic">Why We Started Kashaf Textile Hub</h1>
+        <h1 className="text-[#750B4E] text-4xl font-bold playfair-display italic">Why We Started Kashaf Textile Hub</h1>
         <p className="text-lg text-gray-700 pt-4 md:w-[70%]">
           Kashaf Textile Hub is a creative platform that offers digital textile
           printing, custom design solutions, and hands-on design education. We
@@ -53,7 +53,7 @@ export default function Home() {
 
       {/* Core Services Section */}
       <section className="bg-[#F9F7F0] py-16 px-5">
-        <h2 className="text-center text-4xl font-semibold text-[#750B4E] italic mb-10">
+        <h2 className="text-center text-3xl font-bold playfair-display italic text-[#750B4E] mb-10">
           Our Core Services
         </h2>
         <div className="flex flex-wrap justify-center gap-10">
@@ -134,7 +134,7 @@ export default function Home() {
 
       {/* How It Works */}
       <section className="py-12 text-center bg-[#F9F7F0]">
-        <h2 className="text-2xl font-serif text-[#6a0033] mb-8">How It Works</h2>
+        <h2 className="text-3xl playfair-display italic font-bold text-[#6a0033] mb-8">How It Works</h2>
         <div className="flex flex-wrap justify-center gap-4">
           <button className="bg-[#f1b400] text-white font-bold px-6 py-3 rounded-md shadow">
             Join Our Platform
@@ -156,32 +156,32 @@ export default function Home() {
 
       {/* Testimonials */}
       <section className="py-12 text-center bg-[#F9F7F0]">
-        <h2 className="text-2xl font-serif text-[#6a0033] mb-8">Testimonials</h2>
+        <h2 className="text-3xl playfair-display italic font-bold text-[#6a0033] mb-8">Testimonials</h2>
         <div className="flex flex-wrap justify-center gap-6">
-          <div className="bg-white shadow-md p-6 w-64 text-left">
-            <p className="italic">
-              Kashaf Textile Hub transformed my design into beautiful fabric!
-              The process was so smooth and professional.
+          <div className="bg-white shadow-md p-6 w-90 text-left">
+            <p className="">
+              "Kashaf Textile Hub transformed my design into beautiful fabric!
+              The process was so smooth and professional."
             </p>
-            <span className="block mt-4 text-[#8a2c6c] font-bold">
+            <span className="block mt-4 text-[#8a2c6c] font-bold italic">
               — Ayesha, Fashion Student
             </span>
           </div>
-          <div className="bg-white shadow-md p-6 w-64 text-left">
-            <p className="italic">
-              The custom printing and design guidance helped launch my clothing
-              brand. Highly recommend their services!
+          <div className="bg-white shadow-md p-6 w-90 text-left">
+            <p className="">
+              "The custom printing and design guidance helped launch my clothing
+              brand. Highly recommend their services!"
             </p>
-            <span className="block mt-4 text-[#8a2c6c] font-bold">
+            <span className="block mt-4 text-[#8a2c6c] font-bold italic">
               — Fatima, Startup Owner
             </span>
           </div>
-          <div className="bg-white shadow-md p-6 w-64 text-left">
-            <p className="italic">
-              Kashaf Textile Hub transformed my design into beautiful fabric!
-              The process was so smooth and professiona
+          <div className="bg-white shadow-md p-6 w-90 text-left">
+            <p className="">
+              "Kashaf Textile Hub transformed my design into beautiful fabric!
+              The process was so smooth and professional."
             </p>
-            <span className="block mt-4 text-[#8a2c6c] font-bold">
+            <span className="block mt-4 text-[#8a2c6c] font-bold italic">
               — Ayesha, Fashion Student
             </span>
           </div>

@@ -7,7 +7,7 @@ export default function Footer() {
         
         {/* About Section  */}
         <div>
-          <h2 className="font-bold text-xl">Kashaf textiles Hub</h2>
+          <h2 className="font-bold text-xl italic">Kashaf Textile Hub</h2>
           <p className="text-sm mt-3">
             From Digital Design to Real Fabric
           </p>
@@ -18,7 +18,7 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h3 className="font-semibold mb-4 text-lg">Quick Links</h3>
+          <h3 className="font-semibold mb-4 text-lg italic">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Contact Section */}
         <div>
-          <h3 className="font-semibold mb-4 text-lg">Contact Us</h3>
+          <h3 className="font-semibold mb-4 text-lg italic">Contact Us</h3>
           <ul className="space-y-2 text-sm">
             <li>
               Email:{" "}
@@ -47,7 +47,7 @@ export default function Footer() {
           <div className="mt-6">
             <Link
               href="/join"
-              className="bg-white text-purple-900 px-5 py-2 rounded-md font-medium text-sm hover:bg-gray-100 transition"
+              className="bg-white text-[#7B1451] px-5 py-2 rounded-md font-medium text-sm italic transition"
             >
               Join Now
             </Link>
